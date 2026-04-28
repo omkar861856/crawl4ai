@@ -18,4 +18,5 @@ jobs:
           script: |
             cd /root/crawl4ai
             git pull
+            touch .llm.env
             docker compose up -d --build
